@@ -12,7 +12,7 @@ public class Qsort {
         System.out.println(qsort(arr));
     }
 
-    public static List<Integer> qsort(List<Integer> list) {
+    private static List<Integer> qsort(List<Integer> list) {
         if (list.size() < 2) {
             return list;
         }

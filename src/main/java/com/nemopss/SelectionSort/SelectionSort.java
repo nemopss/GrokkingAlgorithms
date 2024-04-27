@@ -12,7 +12,7 @@ public class SelectionSort {
     }
 
 
-    public static int findSmallest(List<Integer> arr) {
+    private static int findSmallest(List<Integer> arr) {
         int smallest = arr.get(0);
         int smallestIndex = 0;
         for (int i = 0; i < arr.size(); i++) {
@@ -24,7 +24,7 @@ public class SelectionSort {
         return  smallestIndex;
     }
 
-    public static List<Integer> selectionSort(List<Integer> arr) {
+    private static List<Integer> selectionSort(List<Integer> arr) {
         List<Integer> sortedArray = new ArrayList<>(arr.size());
         int smallestIndex;
         int size = arr.size();

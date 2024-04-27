@@ -5,7 +5,7 @@ public class Countdown {
     public static void main(String[] args) {
         countdown(3);
     }
-    public static void countdown(int i) {
+    private static void countdown(int i) {
         System.out.println(i + "!");
 
         if (i <= 1) {

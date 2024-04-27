@@ -4,7 +4,7 @@ public class Factorial {
     public static void main(String[] args) {
         System.out.println(factorial(5));
     }
-    public static long factorial(long i) {
+    private static long factorial(long i) {
         if (i == 1) {
             return 1;
         } else {
